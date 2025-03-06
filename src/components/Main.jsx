@@ -14,7 +14,7 @@ export default function Main() {
         .then(res => res.json())
         .then(data => setAllMemes(data.data.memes))
     }, [])
-    
+
     console.log(allMemes)
 
     function handleChange(event) {
